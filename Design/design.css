@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    min-height: 100vh;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+.header{
+    background: #ffffff;
+    padding: 18px;
+    border-left: 8px solid #00b894;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+h2{
+    color: #243b55;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.container{
+    max-width: 450px;
+    margin: auto;
+    background: #fdfdfd;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    border-top: 6px solid #00b894;
+}
+
+h1{
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+fieldset{
+    border: 2px solid #00b894;
+    border-radius: 15px;
+    padding: 25px;
+    background: #f7fffc;
+}
+
+legend{
+    color: #00b894;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 10px 6px;
+}
+
+label{
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dcdde1;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #fafafa;
+    transition: all 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    outline: none;
+    border-color: #00b894;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,184,148,0.3);
+}
+
+.button-cell{
+    text-align: center;
+    padding-top: 20px;
+}
+
+input[type="submit"]{
+    background: #243b55;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 45px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+input[type="submit"]:hover{
+    background: #00b894;
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(0,184,148,0.4);
+}
+
+#LoginMessage{
+    text-align: center;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 15px;
+}
